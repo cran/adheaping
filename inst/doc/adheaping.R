@@ -24,5 +24,5 @@ legend("topright", c("truth", "naive KDE", "adkde (combined)"),
 
 ## -----------------------------------------------------------------------------
 heap_grid(y, grid, near = D)                 # locate the grid from the comb tooth
-heap_detect(y = D * round(x / D), span = c(-12.8, 12.8))$D_hat  # blind spectral detection
+heap_detect(y = D * round(x / D), span = c(-12.8, 12.8))$D_hat  # NA when it abstains
 
